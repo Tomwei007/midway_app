@@ -1,7 +1,7 @@
 import { Body, Controller, Inject, Post } from "@midwayjs/core";
 import { IconService } from "../service/icon.service";
 
-@Controller('/api')
+@Controller('/icon')
 export class IconController {
   @Inject()
   iconService: IconService;
